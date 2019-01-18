@@ -10,8 +10,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>web</artifactId>
-
-
+    
+    <!--将packaging值调整成war，默认是jar-->
+    <!--需要在web下增加一个目录webapp-->
+    <packaging>war</packaging>
 
     <!--web依赖于persistence-->
     <dependencies>
