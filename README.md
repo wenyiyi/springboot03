@@ -5,19 +5,15 @@ Spring Boot项目打包
 
 1 构建JAR包
   
-  
   mvn -Dmaven.test.skip -U clean package
   
-  
-  java -jar web-0.0.1-SNAPSHOT.jar
+  然后在工程的target目录下会出现jar文件
 
 2 构建WAR包
   
-  
   mvn -Dmaven.test.skip -U clean package
   
-  
-  java -jar web-0.0.1-SNAPSHOT.war
+  然后在工程的target目录下会出现war文件
   
 3 指定Main-Class
 
