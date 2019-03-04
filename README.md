@@ -17,7 +17,7 @@ Spring Boot项目打包
   
   然后在工程的target目录下会出现war文件
   
-  
+  java -jar *.war
   
 3 指定Main-Class
 
